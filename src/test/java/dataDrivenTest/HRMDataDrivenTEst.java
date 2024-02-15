@@ -10,8 +10,10 @@ import org.testng.annotations.Test;
 
 public class HRMDataDrivenTEst
 {
-  @Test(dataProvider = "Mydata",dataProviderClass = CustomData.class)
+  //@Test(dataProvider = "Mydata",dataProviderClass = CustomData.class)
+	@Test(dataProvider = "ExcelFile",dataProviderClass = CustomData.class)
   public void loginTest(String un,String psw)
+  
   {
 	  WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
