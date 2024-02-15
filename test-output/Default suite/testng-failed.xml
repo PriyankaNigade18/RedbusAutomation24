@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ElementHandling.ScrollGesture">
+      <class name="scenarionOnMobileApp.WorkingWithApp">
         <methods>
-          <include name="scrollTest"/>
+          <include name="appStatus"/>
         </methods>
-      </class> <!-- ElementHandling.ScrollGesture -->
+      </class> <!-- scenarionOnMobileApp.WorkingWithApp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
